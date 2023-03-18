@@ -16,6 +16,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .regular-button {
+  display: inline;
   padding: 5px;
   margin: 5px;
   background-color: #262C3B;
@@ -25,5 +26,6 @@ export default {
 }
 .regular-button:hover {
   border-color: #666C7B;
+  cursor:pointer;
 }
 </style>

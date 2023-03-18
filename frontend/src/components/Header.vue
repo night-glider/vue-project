@@ -1,15 +1,13 @@
 <template>
   <div class="header">
-    <Button text="УБИЙЦА HeadHunter!"></Button>
-    <Button text="Фишки"></Button>
-    <Button text="Цены"></Button>
-    <Button text="FAQ"></Button>
-    <Button text="О сайте"></Button>
+    <Button text="УБИЙЦА HeadHunter!" to="/"></Button>
+    <Button text="Новое резюме" to="/add"></Button>
+    <Button text="Просмотр резюме" to="/"></Button>
   </div>
 </template>
 
 <script>
-import Button from './RegularButton.vue'
+import Button from './RouterButton.vue'
 
 export default {
   name: 'HeaderComponent',
